@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arabic OCR Review</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">Static OCR demo</p>
+        <h1>Arabic OCR Review</h1>
+      </div>
+      <div class="header-actions">
+        <select id="documentSelect" aria-label="Choose document"></select>
+        <button id="downloadTextButton" type="button">Export TXT</button>
+        <button id="downloadJsonButton" type="button">Export JSON</button>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <section class="preview-panel" aria-label="Document preview">
+        <div class="preview-toolbar">
+          <button class="segmented is-active" type="button" data-image-key="original">Original</button>
+          <button class="segmented" type="button" data-image-key="processed_enhanced">Enhanced</button>
+          <button class="segmented" type="button" data-image-key="processed_thresholded">Thresholded</button>
+          <button class="segmented" type="button" data-image-key="debug_line_regions">Lines</button>
+        </div>
+        <div class="image-stage">
+          <img id="documentImage" alt="OCR source document">
+          <p id="imageFallback" class="empty-state" hidden>No preview image exported for this view.</p>
+        </div>
+      </section>
+
+      <section class="review-panel" aria-label="OCR lines">
+        <div class="summary-bar">
+          <div>
+            <span id="documentTitle">No document</span>
+            <small id="documentMeta"></small>
+          </div>
+          <div class="summary-stats">
+            <span id="lineCount">0 lines</span>
+            <span id="reviewCount">0 reviewed</span>
+          </div>
+        </div>
+        <div id="lineList" class="line-list"></div>
+      </section>
+    </main>
+
+    <template id="lineTemplate">
+      <article class="line-card">
+        <div class="line-media">
+          <img class="line-crop" alt="">
+        </div>
+        <div class="line-content">
+          <div class="line-top">
+            <span class="line-id"></span>
+            <span class="confidence"></span>
+          </div>
+          <label>
+            OCR text
+            <textarea class="ocr-text" dir="rtl" readonly></textarea>
+          </label>
+          <label>
+            Corrected text
+            <textarea class="corrected-text" dir="rtl"></textarea>
+          </label>
+          <label class="check-row">
+            <input class="unclear-check" type="checkbox">
+            Mark unclear
+          </label>
+        </div>
+      </article>
+    </template>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,213 @@
+{
+  "document_id": "doc_20260607_192329_9c2572a4",
+  "created_at": "2026-06-07T19:23:30",
+  "updated_at": null,
+  "engine": "tesseract",
+  "language": "ara",
+  "psm": 6,
+  "processed_image_size": {
+    "width": 1600,
+    "height": 1200
+  },
+  "assets": {
+    "original": "assets/image1.png",
+    "processed_grayscale": "assets/grayscale.png",
+    "processed_enhanced": "assets/enhanced.png",
+    "processed_thresholded": "assets/thresholded.png",
+    "debug_line_regions": "assets/line_regions_debug.png"
+  },
+  "lines": [
+    {
+      "line_id": "line_0001",
+      "bounding_box": {
+        "left": 0,
+        "top": 0,
+        "width": 1600,
+        "height": 105
+      },
+      "ocr_text": "",
+      "confidence": 0.0,
+      "recognition_status": "empty_prediction",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0001.png"
+    },
+    {
+      "line_id": "line_0002",
+      "bounding_box": {
+        "left": 108,
+        "top": 89,
+        "width": 1492,
+        "height": 74
+      },
+      "ocr_text": "0 300 ار ود فاك ار",
+      "confidence": 38.18,
+      "recognition_status": "recognized",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0002.png"
+    },
+    {
+      "line_id": "line_0003",
+      "bounding_box": {
+        "left": 114,
+        "top": 147,
+        "width": 1223,
+        "height": 58
+      },
+      "ocr_text": "",
+      "confidence": 0.0,
+      "recognition_status": "empty_prediction",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0003.png"
+    },
+    {
+      "line_id": "line_0004",
+      "bounding_box": {
+        "left": 810,
+        "top": 189,
+        "width": 521,
+        "height": 64
+      },
+      "ocr_text": "",
+      "confidence": 0.0,
+      "recognition_status": "empty_prediction",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0004.png"
+    },
+    {
+      "line_id": "line_0005",
+      "bounding_box": {
+        "left": 110,
+        "top": 237,
+        "width": 1490,
+        "height": 68
+      },
+      "ocr_text": "رز 2 ميري ساس لسرا الس وى رت | الات عدار اناركوف دمطناط امار سل ل",
+      "confidence": 21.08,
+      "recognition_status": "recognized",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0005.png"
+    },
+    {
+      "line_id": "line_0006",
+      "bounding_box": {
+        "left": 758,
+        "top": 289,
+        "width": 127,
+        "height": 78
+      },
+      "ocr_text": "سل",
+      "confidence": 34.43,
+      "recognition_status": "recognized",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0006.png"
+    },
+    {
+      "line_id": "line_0007",
+      "bounding_box": {
+        "left": 666,
+        "top": 351,
+        "width": 934,
+        "height": 96
+      },
+      "ocr_text": "000 مر ا |",
+      "confidence": 32.63,
+      "recognition_status": "recognized",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0007.png"
+    },
+    {
+      "line_id": "line_0008",
+      "bounding_box": {
+        "left": 0,
+        "top": 431,
+        "width": 1600,
+        "height": 84
+      },
+      "ocr_text": "30000 0 دسا 0 0 7000 5-5 ا ا عي للكدااىي",
+      "confidence": 31.58,
+      "recognition_status": "recognized",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0008.png"
+    },
+    {
+      "line_id": "line_0009",
+      "bounding_box": {
+        "left": 1129,
+        "top": 499,
+        "width": 214,
+        "height": 113
+      },
+      "ocr_text": "",
+      "confidence": 0.0,
+      "recognition_status": "empty_prediction",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0009.png"
+    },
+    {
+      "line_id": "line_0010",
+      "bounding_box": {
+        "left": 131,
+        "top": 596,
+        "width": 1205,
+        "height": 119
+      },
+      "ocr_text": "223 | ل",
+      "confidence": 42.65,
+      "recognition_status": "recognized",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0010.png"
+    },
+    {
+      "line_id": "line_0011",
+      "bounding_box": {
+        "left": 1067,
+        "top": 699,
+        "width": 269,
+        "height": 104
+      },
+      "ocr_text": "",
+      "confidence": 0.0,
+      "recognition_status": "empty_prediction",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0011.png"
+    },
+    {
+      "line_id": "line_0012",
+      "bounding_box": {
+        "left": 0,
+        "top": 787,
+        "width": 1600,
+        "height": 413
+      },
+      "ocr_text": "0 سوا لا الت 2007 |",
+      "confidence": 23.15,
+      "recognition_status": "recognized",
+      "review_status": "pending",
+      "corrected_text": "",
+      "unclear": false,
+      "crop_url": "lines/line_0012.png"
+    }
+  ]
+}

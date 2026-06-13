@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-06-12T14:47:56",
+  "document_count": 1,
+  "documents": [
+    {
+      "document_id": "doc_20260607_192329_9c2572a4",
+      "title": "image1.png",
+      "created_at": "2026-06-07T19:23:30",
+      "updated_at": null,
+      "language": "ara",
+      "psm": 6,
+      "line_count": 12,
+      "manifest_url": "doc_20260607_192329_9c2572a4/manifest.json"
+    }
+  ]
+}
