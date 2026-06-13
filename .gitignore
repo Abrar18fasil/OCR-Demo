@@ -1,0 +1,14 @@
+# Keep this public demo repo limited to the static GitHub Pages site.
+/*
+
+# Allowed root files.
+!/.gitignore
+!/Readme.md
+
+# Allowed Pages app.
+!/docs/
+!/docs/**
+
+# Local/system noise inside allowed folders.
+.DS_Store
+docs/**/.DS_Store
